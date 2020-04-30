@@ -31,7 +31,7 @@ public class BankingBeanAjax extends BankingBeanBase {
         message = "Unknown customer";
       } else {
         message = 
-          String.format("Balance for %s %s is $%,.2f",
+          String.format("Balance for %s %s is Rp%,.2f",
                         customer.getFirstName(),
                         customer.getLastName(),
                         customer.getBalance());

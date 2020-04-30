@@ -11,11 +11,11 @@ public class CustomerSimpleMap
   public CustomerSimpleMap() {
     customers = new HashMap<>();
     addCustomer(new Customer("id001", "Joko", 
-                             "Pramono", -3456.78));
+                             "Pramono", 67952771.57));
     addCustomer(new Customer("id002", "Indi",
-                             "Riani", 1234.56));
+                             "Riani", 14273070.20));
     addCustomer(new Customer("id003", "Sadin",
-                             "Kovasco", 987654.32));
+                             "Kovasco", 59744848.42));
   }
 
   /** Finds the customer with the given ID.
